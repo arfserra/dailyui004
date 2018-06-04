@@ -1,0 +1,50 @@
+/* Setup & variables */
+
+:root {
+--bg: #E5E5E5;
+--content: #333333;
+--action: #FB3760;
+}
+
+
+html {
+	font-size: 16px;
+	font-family: 'Nunito', sans-serif;
+	background-color: var(--bg);
+	color: var(--content);
+}
+
+
+/* Header */
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img {
+	width: 2.5rem;
+	height: 2.5rem;
+	stroke: var(--action);
+}
+
+
+/* Parameters */
+
+.parameter {
+	display: flex;
+	justify-content: space-around; 
+}
+
+
+/* Age selector */
+
+/* Range Slider */
+
+/* Results */
+
+#result {
+	flex-flow: column;
+	align-items: center;
+}
