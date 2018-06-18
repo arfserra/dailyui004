@@ -15,6 +15,12 @@ html {
 }
 
 
+/* SVG Icons */
+.svg {
+	height: 3rem;
+	width: 3rem;
+}
+
 /* Header */
 
 header {
@@ -23,10 +29,13 @@ header {
 	align-items: center;
 }
 
-header img {
-	width: 2.5rem;
-	height: 2.5rem;
-	stroke: var(--action);
+header h1 {
+	margin-left: 1rem;
+}
+
+header svg {
+	margin-right: 1rem;
+	fill: var(--action);
 }
 
 
